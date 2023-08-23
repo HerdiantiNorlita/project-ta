@@ -113,7 +113,7 @@ class KamarController extends Controller
 		$home2 = Home2::all();
 		$waktu2 = Home2::where('status_bayar',0)->count();
 		$id_home2 = Home2::where('energy','!=','nan')->max('home_id');
-	
+	    $data['home2'] = $energy2 = Home1::where('home_id',$id_home2)->where('energy','>',0)->first();
 
 
 

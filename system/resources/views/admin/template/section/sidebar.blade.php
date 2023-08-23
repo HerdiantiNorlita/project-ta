@@ -45,9 +45,6 @@
         <li class="nav-item  {{checkRouteActive('admin/kamar-2')}}">
           <a class="nav-link pl-3" href="{{url('admin/kamar-2')}}"><span class="ml-1 item-text"> Kamar 2</span></a>
         </li><li class="nav-item  {{checkRouteActive('admin/kamar-2')}}">
-          <a class="nav-link pl-3" href="{{url('admin/kamar-2')}}"><span class="ml-1 item-text"> Kamar 2</span></a>
-        </li><li class="nav-item  {{checkRouteActive('admin/kamar-2')}}">
-          <a class="nav-link pl-3" href="{{url('admin/kamar-2')}}"><span class="ml-1 item-text"> Kamar 2</span></a>
         </li>
 
       </ul>
